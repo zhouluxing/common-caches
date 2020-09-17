@@ -12,10 +12,10 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.2.RELEASE</version>
+        <version>2.3.3.RELEASE</version>
     </parent>
     <properties>
-        <jetcache.version>2.5.7</jetcache.version>
+        <jetcache.version>2.6.0</jetcache.version>
     </properties>
 
     <dependencies>
@@ -56,11 +56,11 @@
             <artifactId>jetcache-core</artifactId>
             <version>${jetcache.version}</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>com.alicp.jetcache</groupId>
             <artifactId>jetcache-tair</artifactId>
             <version>${jetcache.version}</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>javax.cache</groupId>
             <artifactId>cache-api</artifactId>
